@@ -20,4 +20,4 @@ COPY . .
 EXPOSE 4567
 
 # Comando para iniciar la aplicación
-CMD ["ruby", "app.rb"]
+CMD ["ruby", "app.rb", "-o", "0.0.0.0"]
